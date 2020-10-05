@@ -1,0 +1,35 @@
+BI Tools (e.g. data-model-cmd.sh, start.sh, stop.sh, status.sh):
+[home]/user_projects/domains/bi/bitools/bin
+
+TNSNAMES file (to configure Oracle db connections):
+[home]/user_projects/domains/bi/config/fmwconfig/bienv/core/tnsnames.ora
+
+Weblogic scripting tool (wlst.sh)
+[home]/oracle_common/common/bin
+
+Log files (for BI system and weblogic servers):
+[home]/user_projects/domains/bi/servers
+
+BI Catalog:
+[home]/user_projects/domains/bi/bidata/service_instances/ssi/metadata/content/catalog
+
+Live RPD:
+[home]/user_projects/domains/bi/bidata/service_instances/ssi/metadata/datamodel/customizations
+
+NOTE: You need to use data-model-cmd.sh to download the live RPD
+
+Weblogic configuration:
+[home]/user_projects/domains/bi/config
+
+FMW Configuration:[home]/user_projects/domains/bi/config/fmwconfig
+
+BI System configuration (instanceconfg.xml etc):
+[home]/user_projects/domains/bi/config/fmwconfig/biconfig
+
+Examples:
+
+Presentation Services configuration: .../biconfig/OBIPS/instanceconfig.xml
+BI Server configuration: .../biconfig/OBIS/NQSConfig.INI
+
+BI Publisher Configuration:
+[home]/user_projects/domains/bi/bidata/components/bipublisher/repository/Admin/Configuration/xmlp-server-config.xml
